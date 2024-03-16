@@ -193,7 +193,7 @@ const Card = ({ src, alt }) => {
 
   const handleSubmit = () => {
     console.log('Submitted combinations', selectedCards);
-    window.location.href = "../Duel";
+    window.location.href = "./Duel";
     window.localStorage.setItem('selectedCards', JSON.parse(selectedCards));
     // setIsDuel(true);
     // <route path="./Duel" element={"/Duel"} />
